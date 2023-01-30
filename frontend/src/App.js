@@ -1,9 +1,14 @@
 import "./App.css";
+import Footer from "./Pages/Footer";
+import MainRoutes from "./Pages/MainRoutes";
+import Navbar from "./Pages/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to React and hello</h1>
+      <Navbar/>
+      <MainRoutes/>
+      <Footer/>
     </div>
   );
 }
